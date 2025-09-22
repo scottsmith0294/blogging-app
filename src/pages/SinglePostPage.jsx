@@ -13,7 +13,7 @@ function SinglePostPage() {
   // If no post is found (e.g., invalid URL), display a 404 message
   if (!post) {
     return (
-      <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8 text-center">
+      <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8 text-center max-w-2xl">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">Post Not Found</h1>
         <p className="text-lg text-gray-600">The blog post you are looking for does not exist.</p>
         <Link to="/" className="mt-6 inline-block text-blue-600 hover:underline">

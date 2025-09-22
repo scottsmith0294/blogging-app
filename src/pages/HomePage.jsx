@@ -1,4 +1,4 @@
-// src/pages/HomePage.js
+ // src/pages/HomePage.js
 import React, { useContext } from 'react'; // Import useContext
 import { Link } from 'react-router-dom';
 import { PostsContext } from '../context/PostsContext'; // Import PostsContext

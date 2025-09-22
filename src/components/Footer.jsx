@@ -14,7 +14,7 @@ function Footer() {
           &copy; {currentYear} My React Blog. All rights reserved.
         </p>
         <p className="text-xs md:text-sm text-gray-400">
-          Built with ❤️ by Paul Passion Adekanye (PPA).
+          Built with ❤️ by Dayo Passion Babatunde(PPA).
         </p>
         <div className="flex justify-center space-x-4 mt-4">
           {/* You can add social media links or other navigation here later */}
