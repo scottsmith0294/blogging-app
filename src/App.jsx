@@ -15,7 +15,7 @@ function App() {
 
   const takeScreenshot = () => {
     const element = document.body;
-
+  // html2canvas
     html2canvas(element, {
       useCORS: true,
       scale: window.devicePixelRatio,

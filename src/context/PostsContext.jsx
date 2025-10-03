@@ -1,7 +1,4 @@
 
-
-
-
 // src/context/PostsContext.js
 import React, { createContext, useState, useEffect } from 'react';
 import initialPosts from '../data/posts'; // Import your initial mock data
@@ -29,7 +26,7 @@ export const PostsProvider = ({ children }) => {
   });
 
   // Save posts to localStorage whenever the posts state changes
-  useEffect(() => {
+  useEffect(()=> {
     try {
       localStorage.setItem('blog-posts', JSON.stringify(posts));
     } catch (error) {
